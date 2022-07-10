@@ -1,0 +1,42 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+.task_title{
+  background-color: #f07a2b;
+  border-radius: 5px;
+  padding: 5px;
+}
+.task{
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #7bedb0;
+}
+CardContent{
+  margin-bottom: 5px;
+}
+.button{
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+textarea{
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: none;
+  overflow: hidden;
+}
+.add_button{
+  display: flex;
+}
+
+
+
